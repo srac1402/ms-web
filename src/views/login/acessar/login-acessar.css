@@ -1,0 +1,21 @@
+.login {
+  padding: 60px 0;
+  margin: 0 auto;
+  max-width: 320px;
+}
+
+.login > button {
+  margin-left: 0px;
+}
+
+.login > h1 {
+  text-align: center;
+}
+
+.login > span {
+  margin: 15px 0px;
+}
+
+.login > span > input {
+  width: 100%;
+}
