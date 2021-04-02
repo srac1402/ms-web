@@ -3,13 +3,13 @@ import { urlApi, axiosConfig } from '../../comum/base-service';
 export class ClientesService {
 
     listarTodos = async (params = null) => {
-        const url = `${urlApi()}/clientes/buscar`;
+        const url = `${urlApi()}/clientes/pesquisar`;
         const resp = await axiosConfig().get(url, { params: params });
         return resp;
     }
 
     recuperarPorId = async (id) => {
-        const url = `${urlApi()}/clientes/buscar/{id}`;
+        const url = `${urlApi()}/clientes/pesquisar/{id}`;
         try {
             const resp = await axiosConfig().get(url, { params: id });
             return resp;

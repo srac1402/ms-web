@@ -227,13 +227,13 @@ const ClientePesquisar = props => {
       <div className="card">
 
 
-        <div class="card-header">
+        <div className="card-header">
 
-          <div class="d-flex justify-content-between">
+          <div className="d-flex justify-content-between">
 
-            <div class="p-2 bd-highlight"><h1>Pesquisar Cliente</h1></div>
+            <div className="p-2 bd-highlight"><h1>Pesquisar Cliente</h1></div>
 
-            <div class="p-2 bd-highlight">
+            <div className="p-2 bd-highlight">
 
 
               <button
@@ -260,7 +260,7 @@ const ClientePesquisar = props => {
 
         </div>
 
-        <div class="card-body">
+        <div className="card-body">
 
           <div className="row mb-3">
             <div className="col-sm-12 col-md-6 col-lg-6">
@@ -320,9 +320,9 @@ const ClientePesquisar = props => {
 
         <div className="card-footer">
 
-          <div class="d-flex justify-content-end">
+          <div className="d-flex justify-content-end">
 
-            <div class="p-2 bd-highlight">
+            <div className="p-2 bd-highlight">
 
               <button
                 className="btn btn-primary btn-md float-right mr-1"
