@@ -76,13 +76,13 @@ const ClientesManter = props => {
 
         <div className="card">
 
-          <div class="card-header">
+          <div className="card-header">
 
-            <div class="d-flex justify-content-between">
+            <div className="d-flex justify-content-between">
 
-              <div class="p-2 bd-highlight"><h1>{titulo}</h1></div>
+              <div className="p-2 bd-highlight"><h1>{titulo}</h1></div>
 
-              <div class="p-2 bd-highlight">
+              <div className="p-2 bd-highlight">
 
                 {somenteLeitura === false && (
                   <button
@@ -104,7 +104,7 @@ const ClientesManter = props => {
           </div>
 
 
-          <div class="card-body">
+          <div className="card-body">
             <div className="form-group col-6">
 
               <label htmlFor="inputNumPessoa">Nome:</label>
@@ -160,9 +160,9 @@ const ClientesManter = props => {
 
           <div className="card-footer">
 
-            <div class="d-flex justify-content-end">
+            <div className="d-flex justify-content-end">
 
-              <div class="p-2 bd-highlight">
+              <div className="p-2 bd-highlight">
 
                 {somenteLeitura === false && (
                   <button
@@ -183,8 +183,6 @@ const ClientesManter = props => {
           </div>
 
         </div>
-
-
 
       </form>
     </div>
